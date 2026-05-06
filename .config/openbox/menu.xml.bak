@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="https://openbox.org/"
+ xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://openbox.org/">
+  <menu id="-t" label="Applications">
+    <item label="File Manager" icon="/home/orni/.cache/obmenu-generator/icons/a384074033dfc3ebebb1a8a39d2be8a6.png"><action name="Execute"><command><![CDATA[xdg-open .]]></command></action></item>
+    <item label="Terminal" icon="/home/orni/.cache/obmenu-generator/icons/4bba506b8ff42c4bfb64152ae0997ac9.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+    <item label="Web Browser" icon="/home/orni/.cache/obmenu-generator/icons/0fd14be8770af75716427df2c3a3194a.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+    <item label="Run command" icon="/home/orni/.cache/obmenu-generator/icons/75a67767299530cac90d76a36547c619.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  <separator label="Categories"/>
+  <menu id="0.32626203222117" icon="/home/orni/.cache/obmenu-generator/icons/14ccfd60064d61cfc7da4145731d45f2.png" label="Accessories">
+    <item label="About Xfce" icon="/home/orni/.cache/obmenu-generator/icons/2777892b95f4d349e0983bf07ccf5cb4.png"><action name="Execute"><command><![CDATA[xfce4-about]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/orni/.cache/obmenu-generator/icons/c2c47267f18c412a241b1b25181e8986.png"><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+    <item label="HP Device Manager" icon="/home/orni/.cache/obmenu-generator/icons/4526504abccd9e43802080dd5f3cf6c6.png"><action name="Execute"><command><![CDATA[hp-toolbox]]></command></action></item>
+    <item label="Limine-snapper-restore" icon="/home/orni/.cache/obmenu-generator/icons/c0e2bb10d03a60829ebde8d0f078135c.png"><action name="Execute"><command><![CDATA[limine-snapper-restore]]></command></action></item>
+    <item label="Micro" icon="/home/orni/.cache/obmenu-generator/icons/a3d28220e7a0dd6544a4c029333f3779.png"><action name="Execute"><command><![CDATA[xterm -e 'micro']]></command></action></item>
+    <item label="nitrogen" icon="/home/orni/.cache/obmenu-generator/icons/dc07ea0146d8fe8408ee1b3a35dded2d.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="Text Editor" icon="/home/orni/.cache/obmenu-generator/icons/8ff4b3d65cf1c3a91431edca5430a860.png"><action name="Execute"><command><![CDATA[xed]]></command></action></item>
+    <item label="Vim" icon="/home/orni/.cache/obmenu-generator/icons/9f954f62b318e85d9716dec7d44b1f3b.png"><action name="Execute"><command><![CDATA[xterm -e 'vim']]></command></action></item>
+  </menu>
+  <menu id="0.221948605819733" icon="/home/orni/.cache/obmenu-generator/icons/0387ca745482e01491536375926426b7.png" label="Development">
+    <item label="Meld" icon="/home/orni/.cache/obmenu-generator/icons/e7272e4f40a46a9e0c4304f221f67c34.png"><action name="Execute"><command><![CDATA[meld]]></command></action></item>
+    <item label="Micro" icon="/home/orni/.cache/obmenu-generator/icons/a3d28220e7a0dd6544a4c029333f3779.png"><action name="Execute"><command><![CDATA[xterm -e 'micro']]></command></action></item>
+  </menu>
+  <menu id="0.256682239278359" icon="/home/orni/.cache/obmenu-generator/icons/88d45fe59e05c5b23cc06c0dce0f8952.png" label="Multimedia">
+    <item label="mpv Media Player" icon="/home/orni/.cache/obmenu-generator/icons/39475279dc2347a89ec82994ef98494c.png"><action name="Execute"><command><![CDATA[mpv --player-operation-mode=pseudo-gui --]]></command></action></item>
+    <item label="PulseAudio System Tray" icon="/home/orni/.cache/obmenu-generator/icons/2827fddc68d00286c2036423acded9cc.png"><action name="Execute"><command><![CDATA[pasystray]]></command></action></item>
+    <item label="Qt V4L2 test Utility" icon="/home/orni/.cache/obmenu-generator/icons/536fa375e9ddf3f93743c18aeecb4e9d.png"><action name="Execute"><command><![CDATA[qv4l2]]></command></action></item>
+    <item label="Qt V4L2 video capture utility" icon="/home/orni/.cache/obmenu-generator/icons/536fa375e9ddf3f93743c18aeecb4e9d.png"><action name="Execute"><command><![CDATA[qvidcap]]></command></action></item>
+    <item label="Volume Control" icon="/home/orni/.cache/obmenu-generator/icons/a5963c55ce7fff8c52fa00516529ce71.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+  </menu>
+  <menu id="0.604213931687759" icon="/home/orni/.cache/obmenu-generator/icons/5e2944a03dc82bfaea4f718d2d3f6083.png" label="Network">
+    <item label="Avahi SSH Server Browser" icon="/home/orni/.cache/obmenu-generator/icons/419ef55a841cefa586a0fd69990410e4.png"><action name="Execute"><command><![CDATA[/usr/bin/bssh]]></command></action></item>
+    <item label="Avahi VNC Server Browser" icon="/home/orni/.cache/obmenu-generator/icons/419ef55a841cefa586a0fd69990410e4.png"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
+    <item label="Firefox" icon="/home/orni/.cache/obmenu-generator/icons/1d8c66813d50ea60416d05c88622b1f0.png"><action name="Execute"><command><![CDATA[/usr/lib/firefox/firefox]]></command></action></item>
+  </menu>
+  <menu id="0.819657384313434" icon="/home/orni/.cache/obmenu-generator/icons/f544a0e382d47b8b04b870ee8225b3cc.png" label="Other">
+    <item label="hp-uiscan" icon="/home/orni/.cache/obmenu-generator/icons/9f5943a1e1f47f8d5ffc2e546508c0e5.png"><action name="Execute"><command><![CDATA[/usr/bin/hp-uiscan]]></command></action></item>
+    <item label="Rofi Theme Selector" icon="/home/orni/.cache/obmenu-generator/icons/cc59e58092d7a55344959b8afd32b973.png"><action name="Execute"><command><![CDATA[rofi-theme-selector]]></command></action></item>
+    <item label="Rofi" icon="/home/orni/.cache/obmenu-generator/icons/cc59e58092d7a55344959b8afd32b973.png"><action name="Execute"><command><![CDATA[rofi -show]]></command></action></item>
+  </menu>
+  <menu id="0.322776867062188" icon="/home/orni/.cache/obmenu-generator/icons/f3696f59388a5c36c99c8356cd61c752.png" label="Settings">
+    <item label="Advanced Network Configuration" icon="/home/orni/.cache/obmenu-generator/icons/ec59362f360a331634b0cf4aa4c72e4c.png"><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+    <item label="ARandR"><action name="Execute"><command><![CDATA[arandr]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/orni/.cache/obmenu-generator/icons/e78761fff5163d9375641f2e09fc0d77.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Manage Printing" icon="/home/orni/.cache/obmenu-generator/icons/955d8ecf74f6c0a372e138e2ba5e2458.png"><action name="Execute"><command><![CDATA[xdg-open http://localhost:631/]]></command></action></item>
+    <item label="NVIDIA X Server Settings" icon="/home/orni/.cache/obmenu-generator/icons/e1b1fae668ec5513b416528b15652579.png"><action name="Execute"><command><![CDATA[/usr/bin/nvidia-settings]]></command></action></item>
+    <item label="Openbox Settings" icon="/home/orni/.cache/obmenu-generator/icons/61f3de6fd06f9847e869878302ba1980.png"><action name="Execute"><command><![CDATA[obconf-qt]]></command></action></item>
+    <item label="Print Settings" icon="/home/orni/.cache/obmenu-generator/icons/9f5943a1e1f47f8d5ffc2e546508c0e5.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Removable Drives and Media" icon="/home/orni/.cache/obmenu-generator/icons/c8bbcbbbf63ddcaed43846947e8b2884.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    <item label="Thunar Preferences" icon="/home/orni/.cache/obmenu-generator/icons/c2c47267f18c412a241b1b25181e8986.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="Tint2 Settings" icon="/home/orni/.cache/obmenu-generator/icons/e5dfe167c6bd240282dbab2b0f575d3b.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+    <item label="Volume Control" icon="/home/orni/.cache/obmenu-generator/icons/a5963c55ce7fff8c52fa00516529ce71.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+  </menu>
+  <menu id="0.603363677297548" icon="/home/orni/.cache/obmenu-generator/icons/d7f5bec41effc66a0e54da9f8b7d1ea9.png" label="System">
+    <item label="Alacritty" icon="/home/orni/.cache/obmenu-generator/icons/2d91ff06b08abe6ca4dea42ee1751eec.png"><action name="Execute"><command><![CDATA[alacritty]]></command></action></item>
+    <item label="Avahi Zeroconf Browser" icon="/home/orni/.cache/obmenu-generator/icons/419ef55a841cefa586a0fd69990410e4.png"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
+    <item label="btop++" icon="/home/orni/.cache/obmenu-generator/icons/18f26e8b8266886ec893bf3d0474c680.png"><action name="Execute"><command><![CDATA[xterm -e 'btop']]></command></action></item>
+    <item label="Btrfs Assistant" icon="/home/orni/.cache/obmenu-generator/icons/d3807fdb6b068d3253a75508c2e7527a.png"><action name="Execute"><command><![CDATA[btrfs-assistant-launcher]]></command></action></item>
+    <item label="CachyOS Hello" icon="/home/orni/.cache/obmenu-generator/icons/d7b421982ef61458d8f1033887714803.png"><action name="Execute"><command><![CDATA[/usr/bin/cachyos-hello]]></command></action></item>
+    <item label="CachyOS Kernel Manager" icon="/home/orni/.cache/obmenu-generator/icons/940ad3ece346b253d39bdaa783cbc691.png"><action name="Execute"><command><![CDATA[cachyos-kernel-manager]]></command></action></item>
+    <item label="CachyOS Package Installer" icon="/home/orni/.cache/obmenu-generator/icons/024cdd9b742fc105d484304f9f474a99.png"><action name="Execute"><command><![CDATA[/usr/bin/cachyos-pi]]></command></action></item>
+    <item label="jgmenu" icon="/home/orni/.cache/obmenu-generator/icons/01fe425790f2581bb6d65b1ef482a961.png"><action name="Execute"><command><![CDATA[jgmenu_run]]></command></action></item>
+    <item label="Manage Printing" icon="/home/orni/.cache/obmenu-generator/icons/955d8ecf74f6c0a372e138e2ba5e2458.png"><action name="Execute"><command><![CDATA[xdg-open http://localhost:631/]]></command></action></item>
+    <item label="Octopi CacheCleaner" icon="/home/orni/.cache/obmenu-generator/icons/3841453f1bd07493d0f03e505f2602ab.png"><action name="Execute"><command><![CDATA[/usr/bin/octopi-cachecleaner]]></command></action></item>
+    <item label="Octopi Notifier" icon="/home/orni/.cache/obmenu-generator/icons/3841453f1bd07493d0f03e505f2602ab.png"><action name="Execute"><command><![CDATA[/usr/bin/octopi-notifier]]></command></action></item>
+    <item label="Octopi Repository Editor" icon="/home/orni/.cache/obmenu-generator/icons/3841453f1bd07493d0f03e505f2602ab.png"><action name="Execute"><command><![CDATA[/usr/bin/octopi-repoeditor]]></command></action></item>
+    <item label="Octopi" icon="/home/orni/.cache/obmenu-generator/icons/3841453f1bd07493d0f03e505f2602ab.png"><action name="Execute"><command><![CDATA[/usr/bin/octopi]]></command></action></item>
+    <item label="Print Settings" icon="/home/orni/.cache/obmenu-generator/icons/9f5943a1e1f47f8d5ffc2e546508c0e5.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="SchedExt GUI Manager" icon="/home/orni/.cache/obmenu-generator/icons/286c82e7a14a92177038ae34486a8d38.png"><action name="Execute"><command><![CDATA[scx-manager]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/orni/.cache/obmenu-generator/icons/c2c47267f18c412a241b1b25181e8986.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Tint2" icon="/home/orni/.cache/obmenu-generator/icons/5f3e62a7fdf6ef00e56dc2c0f7668a98.png"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/orni/.cache/obmenu-generator/icons/4219937d76adf40ed690f96c006dfc07.png"><action name="Execute"><command><![CDATA[xfce4-terminal]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.0654593704212729" icon="/home/orni/.cache/obmenu-generator/icons/36b57deda34c347e69eaed83ac7c8754.png" label="Advanced Settings">
+    <item label="Conky RC" icon="/home/orni/.cache/obmenu-generator/icons/f3cd8f0aaa3a2e35663ff6cfdf0d4b96.png"><action name="Execute"><command><![CDATA[geany ~/.conkyrc]]></command></action></item>
+    <item label="Tint2 Panel" icon="/home/orni/.cache/obmenu-generator/icons/f3cd8f0aaa3a2e35663ff6cfdf0d4b96.png"><action name="Execute"><command><![CDATA[geany ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.639708545050244" icon="/home/orni/.cache/obmenu-generator/icons/8ff4b3d65cf1c3a91431edca5430a860.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/orni/.cache/obmenu-generator/icons/f3cd8f0aaa3a2e35663ff6cfdf0d4b96.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/orni/.cache/obmenu-generator/icons/f3cd8f0aaa3a2e35663ff6cfdf0d4b96.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/orni/.cache/obmenu-generator/icons/8ff4b3d65cf1c3a91431edca5430a860.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/orni/.cache/obmenu-generator/icons/8ff4b3d65cf1c3a91431edca5430a860.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/orni/.cache/obmenu-generator/icons/8ff4b3d65cf1c3a91431edca5430a860.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/orni/.cache/obmenu-generator/icons/8ff4b3d65cf1c3a91431edca5430a860.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/orni/.cache/obmenu-generator/icons/0d3dfd63e106b9729536e30d9c695d7c.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.325762620720297" icon="/home/orni/.cache/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/orni/.cache/obmenu-generator/icons/f3cd8f0aaa3a2e35663ff6cfdf0d4b96.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/orni/.cache/obmenu-generator/icons/f3cd8f0aaa3a2e35663ff6cfdf0d4b96.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/orni/.cache/obmenu-generator/icons/f3cd8f0aaa3a2e35663ff6cfdf0d4b96.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/orni/.cache/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock" icon="/home/orni/.cache/obmenu-generator/icons/4c8321a75ca583aed86fefc054a0d4cf.png"><action name="Execute"><command><![CDATA[xscreensaver-command -lock]]></command></action></item>
+    <item label="Exit" icon="/home/orni/.cache/obmenu-generator/icons/00abd3c2943553016f5374573c69bd53.png"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>
