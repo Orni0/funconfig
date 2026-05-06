@@ -19,7 +19,7 @@
 # settings for me and my main pc
 xrandr --output HDMI-0 --mode 1920x1080 --rate 144 &
 setxkbmap -layout us,ru,kz -option grp:alt_shift_toggle &
-
+picom &
 feh --bg-fill ~/.wallpapers/i.png &
 conky -q -c ~/conky/time &
 dunst &
@@ -33,4 +33,3 @@ blueman-applet &
 pkill sxhkd
 sxhkd &
 flameshot &
-picom --config ~/.config/picom.conf &
